@@ -1,0 +1,48 @@
+.main-container {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.center {
+    font-size: 40px;
+    text-shadow:
+        0 0 35px #08fdd8,
+        0px 0px 45px white;
+}
+
+@keyframes flicker {
+
+    0%,
+    18%,
+    22%,
+    25%,
+    53%,
+    57%,
+    100% {
+        text-shadow:
+            0 0 35px #08fdd8,
+            0px 0px 45px white;
+    }
+
+    20%,
+    40%,
+    55% {
+        text-shadow: none;
+    }
+}
+
+body {
+    background-color: #080d33;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    color: #08fdd8;
+}
+
+h1 {
+    animation: flicker 5.0s infinite alternate;
+}

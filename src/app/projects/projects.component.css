@@ -1,0 +1,63 @@
+.main-container {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h1 {
+    color: #08fdd8;
+    font-size: 50px;
+    text-shadow:
+        0 0 35px #08fdd8,
+        0px 0px 45px white;
+    margin-top: 150px;
+}
+
+img {
+    border-radius: 2%;
+    margin-bottom: 15px;
+    width: 700px;
+}
+
+h3 {
+    color: white;
+}
+
+.visit-site {
+    border: 2px solid #080d33;
+    border-radius: 10px;
+    background-color: #080d33;
+    color: #9c19e0;
+    font-size: 25px;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    position: relative;
+    display: flex;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0%;
+    transition: .5s ease;
+    text-align: center;
+    background-color: #9c19e0;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}

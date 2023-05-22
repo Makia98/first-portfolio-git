@@ -1,0 +1,115 @@
+h1 {
+    color: #08fdd8;
+    font-size: 50px;
+    text-shadow:
+        0 0 35px #08fdd8,
+        0px 0px 45px white;
+    margin-top: 150px;
+}
+
+#work {
+    color: #9c19e0;
+    text-shadow:
+        0 0 35px #9c19e0,
+        0px 0px 45px white;
+}
+
+
+img {
+    padding-right: 10px;
+    width: 32px;
+    height: 32px;
+    margin-top: 17px;
+}
+
+.main-container {
+    margin-top: 0px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.contact-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-form {
+    background-color: white;
+    height: 350px;
+    width: 900px;
+    border-radius: 10px;
+    box-shadow: 15px 15px 20px -10px white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.input-form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 60px;
+    padding-top: 20px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.contact-info h3 {
+    color: #9c19e0;
+    margin-top: -12px;
+    font-size: 20px;
+}
+
+.contact-info h2 {
+    font-weight: bold;
+    color: darkblue;
+}
+
+input {
+    display: block;
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+#submit-button {
+    padding: 15px 30px;
+    margin-left: 30px;
+    width: 50%;
+    border-radius: 20px;
+    border-bottom: none;
+    margin-top: 20px;
+}
+
+#submit-button:hover {
+    box-shadow:
+        0 0 3px #fff,
+        0 0 20px #9c19e0;
+
+}
+
+label {
+    color: darkblue;
+    font-weight: bold;
+    font-size: 17px;
+    /* color: #080d33; */
+}
+
+.divider {
+    margin-right: 50px;
+    margin-top: 15px;
+    border-left: 1px solid #38546d;
+    background: #16222c;
+    width: 1px;
+    height: 300px;
+}
