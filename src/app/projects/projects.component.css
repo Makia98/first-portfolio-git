@@ -23,20 +23,21 @@ img {
 }
 
 h3 {
-    color: white;
-}
-
-.visit-site {
-    border: 2px solid #080d33;
-    border-radius: 10px;
-    background-color: #080d33;
     color: #9c19e0;
-    font-size: 25px;
+    font-size: x-large;
 }
 
-a:visited {
-    color: white;
+button {
+    font-size: 20px;
+    border: none;
+    background-color: white;
+    box-shadow:
+            0 0 20px #08fdd8;
+}
+
+button a {
     text-decoration: none;
+    color: black;
 }
 
 .container {
@@ -45,6 +46,10 @@ a:visited {
 }
 
 .overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -53,9 +58,13 @@ a:visited {
     height: 100%;
     width: 100%;
     opacity: 0%;
+    border-radius: 2%;
     transition: .5s ease;
     text-align: center;
-    background-color: #9c19e0;
+    box-shadow:
+            0 0 3px #fff,
+            0 0 20px #fff;
+    background-color: white;
 }
 
 .container:hover .overlay {
